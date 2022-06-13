@@ -7,25 +7,47 @@ using UnityEngine;
 
 public enum EnemyStates
 {
+    Idle,
+
     Chase,
     
     Patrol,
 
+    Attack,
+
     Die
+};
+
+public enum EnemyType
+{
+    Melee,
+
+    Ranged
 };
 
 public class EnemyController : MonoBehaviour
 {
-
+    #region Public properties
     GameObject player;
+    public GameObject bulletPrefab;
+
     [SerializeField] EnemyStates currentState = EnemyStates.Patrol;
+    [SerializeField] EnemyType enemyType;
+
     [SerializeField] float range = 10f;
     [SerializeField] float speed = 1f;
+    [SerializeField] float attackingRange = 1f;
+    [SerializeField] float bulletSpeed;
+    [SerializeField] float coolDown = 2f;
+    #endregion
 
+    #region Private properties
     private bool _chooseDir = false;
     private bool _dead = false;
+    private bool _coolDownAttack = false;
 
     private Vector3 _randomDir;
+    #endregion
 
     // Start is called before the first frame update
     void Start()
@@ -38,6 +60,10 @@ public class EnemyController : MonoBehaviour
     {
         switch (currentState)
         {
+            //case(EnemyStates.Idle):
+            //    Idle();
+            //break;
+
             case (EnemyStates.Patrol):
                 Patrol();
                 break;
@@ -46,8 +72,12 @@ public class EnemyController : MonoBehaviour
                 Chase();
                 break;
 
+            case (EnemyStates.Attack):
+                Attack();
+                break;
+
             case (EnemyStates.Die):
-                Death();
+                //Death();
                 break;
         }
 
@@ -58,6 +88,10 @@ public class EnemyController : MonoBehaviour
         else if (!isPlayerInRange(range) && currentState != EnemyStates.Die)
         {
             currentState = EnemyStates.Patrol;
+        }
+        if(Vector3.Distance(transform.position, player.transform.position) <= attackingRange)
+        {
+            currentState = EnemyStates.Attack;
         }
     }
 
@@ -86,6 +120,27 @@ public class EnemyController : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
     }
 
+    void Attack()
+    {
+        if (!_coolDownAttack)
+        {
+            switch (enemyType)
+            {
+                case (EnemyType.Melee):
+                    GameController.DamagePlayer(1);
+                    StartCoroutine(CoolDown());
+                    break;
+                case (EnemyType.Ranged):
+                    GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity) as GameObject;
+                    bullet.GetComponent<BulletController>().GetPlayer(player.transform);
+                    bullet.AddComponent<Rigidbody2D>().gravityScale = 0;
+                    bullet.GetComponent<BulletController>().isEnemyBullet = true;
+                    StartCoroutine(CoolDown());
+                    break;
+            }
+        }
+    }
+
     public void Death()
     {
         Destroy(gameObject);
@@ -100,5 +155,12 @@ public class EnemyController : MonoBehaviour
         Quaternion nextRotation = Quaternion.Euler(_randomDir);
         transform.rotation = Quaternion.Lerp(transform.rotation, nextRotation, Random.Range(0.5f, 2.5f));
         _chooseDir = false;
+    }
+
+    private IEnumerator CoolDown()
+    {
+        _coolDownAttack = true;
+        yield return new WaitForSeconds(coolDown);
+        _coolDownAttack = false;
     }
 }
