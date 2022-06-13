@@ -21,6 +21,14 @@ public class BulletController : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Enemy")
+        {
+            collision.gameObject.GetComponent<EnemyController>().Death();
+        }
+    }
+
     IEnumerator DeathDelay()
     {
         yield return new WaitForSeconds(bullet_lifeTime);
