@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 29956382}
   - component: {fileID: 29956384}
   m_Layer: 0
-  m_Name: Collectible 1
+  m_Name: Collectible 1 - Health Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -161,7 +161,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29956380}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -233,10 +233,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
-  healthChange: 0
+    name: Health Potion
+    description: Gives +1 health
+    itemImage: {fileID: 21300000, guid: 4b02ecb5cbe6a5e4caab9241d6a0aa9a, type: 3}
+  healthChange: 2
   moveSpeedChange: 0
   attackSpeedChange: 0
   bulletSizeChange: 0
@@ -253,7 +253,7 @@ GameObject:
   - component: {fileID: 64757336}
   - component: {fileID: 64757338}
   m_Layer: 0
-  m_Name: Collectible 3
+  m_Name: Collectible 3 - Speed Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,7 +280,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64757334}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -352,11 +352,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
+    name: Speed Potion
+    description: Increases speed by + 2
+    itemImage: {fileID: 21300000, guid: 6cda4da00862e544385f318b80d3de5d, type: 3}
   healthChange: 0
-  moveSpeedChange: 0
+  moveSpeedChange: 2
   attackSpeedChange: 0
   bulletSizeChange: 0
 --- !u!1 &77255343
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 277481221}
   - component: {fileID: 277481223}
   m_Layer: 0
-  m_Name: Collectible 2
+  m_Name: Collectible 2 - Speed Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -538,7 +538,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277481219}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -610,11 +610,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
+    name: Speed Potion
+    description: Give + 2 Speed
+    itemImage: {fileID: 21300000, guid: 6cda4da00862e544385f318b80d3de5d, type: 3}
   healthChange: 0
-  moveSpeedChange: 0
+  moveSpeedChange: 2
   attackSpeedChange: 0
   bulletSizeChange: 0
 --- !u!1 &362949771
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 362949773}
   - component: {fileID: 362949775}
   m_Layer: 0
-  m_Name: Collectible 5
+  m_Name: Collectible 5 - Health Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -657,7 +657,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362949771}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -729,10 +729,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
-  healthChange: 0
+    name: Health
+    description: Increases health by +1
+    itemImage: {fileID: 21300000, guid: 4b02ecb5cbe6a5e4caab9241d6a0aa9a, type: 3}
+  healthChange: 1
   moveSpeedChange: 0
   attackSpeedChange: 0
   bulletSizeChange: 0
@@ -1032,7 +1032,7 @@ GameObject:
   - component: {fileID: 720930623}
   - component: {fileID: 720930625}
   m_Layer: 0
-  m_Name: Collectible 6
+  m_Name: Collectible 6 - Health Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1059,7 +1059,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720930621}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1131,10 +1131,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
-  healthChange: 0
+    name: Health Potion
+    description: increases health by +1
+    itemImage: {fileID: 21300000, guid: 4b02ecb5cbe6a5e4caab9241d6a0aa9a, type: 3}
+  healthChange: 1
   moveSpeedChange: 0
   attackSpeedChange: 0
   bulletSizeChange: 0
@@ -1151,6 +1151,7 @@ GameObject:
   - component: {fileID: 856327448}
   - component: {fileID: 856327447}
   - component: {fileID: 856327446}
+  - component: {fileID: 856327449}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1238,7 +1239,7 @@ MonoBehaviour:
   collectedText: {fileID: 697892213}
   bulletPrefab: {fileID: 5800519732595460991, guid: e898e23190ab78c4b801acc07d9a945d,
     type: 3}
-  bulletSpeed: 5.5
+  bulletSpeed: 6
   firingDelay: 0.5
 --- !u!61 &856327447
 BoxCollider2D:
@@ -1287,6 +1288,32 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!61 &856327449
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856327443}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.64, y: 0.64}
+    newSize: {x: 0.64, y: 0.64}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.64, y: 0.64}
+  m_EdgeRadius: 0
 --- !u!1 &1117178439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1300,7 +1327,7 @@ GameObject:
   - component: {fileID: 1117178441}
   - component: {fileID: 1117178443}
   m_Layer: 0
-  m_Name: Collectible 7
+  m_Name: Collectible 7 - Speed Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1327,7 +1354,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117178439}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1399,11 +1426,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
+    name: Speed Potion
+    description: gives +2 speed
+    itemImage: {fileID: 21300000, guid: 6cda4da00862e544385f318b80d3de5d, type: 3}
   healthChange: 0
-  moveSpeedChange: 0
+  moveSpeedChange: 2
   attackSpeedChange: 0
   bulletSizeChange: 0
 --- !u!1 &1123484164
@@ -1721,7 +1748,7 @@ GameObject:
   - component: {fileID: 1572336826}
   - component: {fileID: 1572336828}
   m_Layer: 0
-  m_Name: Collectible 8
+  m_Name: Collectible 8 - Health Potion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1748,7 +1775,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572336824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1820,10 +1847,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
-  healthChange: 0
+    name: Health Potion
+    description: Increases health by +1
+    itemImage: {fileID: 21300000, guid: 4b02ecb5cbe6a5e4caab9241d6a0aa9a, type: 3}
+  healthChange: 1
   moveSpeedChange: 0
   attackSpeedChange: 0
   bulletSizeChange: 0
@@ -2040,7 +2067,7 @@ GameObject:
   - component: {fileID: 1993172731}
   - component: {fileID: 1993172733}
   m_Layer: 0
-  m_Name: Collectible 4
+  m_Name: Collectible 4 - Scroll (Attack)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2067,7 +2094,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993172729}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -2139,13 +2166,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item:
-    name: 
-    description: 
-    itemImage: {fileID: 0}
+    name: Scroll
+    description: Increases Attack speed and bullet size
+    itemImage: {fileID: 21300000, guid: 208c13711a4a5e7438c6a61660feced4, type: 3}
   healthChange: 0
   moveSpeedChange: 0
-  attackSpeedChange: 0
-  bulletSizeChange: 0
+  attackSpeedChange: 0.25
+  bulletSizeChange: 0.15
 --- !u!1001 &5800519731995347702
 PrefabInstance:
   m_ObjectHideFlags: 0
