@@ -80,7 +80,7 @@ SpriteRenderer:
   m_Size: {x: 0.58, y: 0.51}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &6842380623842930915
@@ -92,10 +92,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5800519732595460991}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 38f2db865a782544b9b192a8bfbd3591, type: 3}
+  m_Script: {fileID: 11500000, guid: fcf5fa7fbd48447a3ae4a8f421d8b499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet_lifeTime: 0.75
+  bullet_lifeTime: 0.5
   isEnemyBullet: 0
 --- !u!61 &4040041475681044177
 BoxCollider2D:
