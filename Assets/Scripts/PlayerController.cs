@@ -38,6 +38,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         // player movement inputs
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
@@ -54,6 +55,12 @@ public class PlayerController : MonoBehaviour
 
         player_rigidbody.velocity = new Vector3(horizontal * playerSpeed, vertical * playerSpeed, 0);
         collectedText.text = "Items Collected: " + amountCollected;
+
+
+        // item system updates
+        firingDelay = GameController.FireRate;
+        playerSpeed = GameController.MoveSpeed;
+
     }
 
     // method to handle Shooting
