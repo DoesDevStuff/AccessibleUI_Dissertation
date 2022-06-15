@@ -30,8 +30,8 @@ public class GameController : MonoBehaviour
     #endregion
 
     #region getter setter
-    public static float Health { get => _health; set => _health = value; }
     public static int MaxHealth { get => _maxHealth; set => _maxHealth = value; }
+    public static float Health { get => _health; set => _health = value; }
     public static float MoveSpeed { get => _moveSpeed; set => _moveSpeed = value; }
     public static float FireRate { get => _fireRate; set => _fireRate = value; }
     public static float BulletSize { get => _bulletSize; set => _bulletSize = value; }
@@ -80,6 +80,7 @@ public class GameController : MonoBehaviour
     {
         _bulletSize += size;
     }
+
     /*
     public void UpdateCollectedItems(CollectibleController item)
     {

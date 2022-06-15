@@ -23,14 +23,12 @@ public class CollectibleController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        GetComponent<SpriteRenderer>().sprite = item.itemImage;
+        Destroy(GetComponent<PolygonCollider2D>());
+        gameObject.AddComponent<PolygonCollider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
