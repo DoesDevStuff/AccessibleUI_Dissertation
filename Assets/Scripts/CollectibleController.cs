@@ -39,7 +39,7 @@ public class CollectibleController : MonoBehaviour
             GameController.MoveSpeedChange(moveSpeedChange);
             GameController.FireRateChange(attackSpeedChange);
             GameController.BulletSizeChange(bulletSizeChange);
-           // GameController.instance.UpdateCollectedItems(this);
+            GameController.instance.UpdateCollectedItems(this);
             Destroy(gameObject);
         }
     }
