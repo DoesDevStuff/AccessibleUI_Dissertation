@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8f3b066373519847a4543adb4065ef6, type: 3}
+  m_Name: PlayerAnima
+  m_EditorClassIdentifier: 
+  familirType: FamiliarAnima
+  speed: 2.5
+  fireDelay: 1
+  bulletPrefab: {fileID: 5800519732595460991, guid: 1a57a6f6b92a5ff46abbb73fe3368f88,
+    type: 3}

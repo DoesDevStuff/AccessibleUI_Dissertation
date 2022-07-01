@@ -31,6 +31,8 @@ public class EnemyController : MonoBehaviour
     GameObject player;
     public GameObject bulletPrefab;
 
+    public bool notInRoom = false;
+
     [SerializeField] EnemyStates currentState = EnemyStates.Patrol;
     [SerializeField] EnemyType enemyType;
 
@@ -39,6 +41,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] float attackingRange = 1f;
     [SerializeField] float bulletSpeed;
     [SerializeField] float coolDown = 2f;
+
     #endregion
 
     #region Private properties
@@ -81,18 +84,26 @@ public class EnemyController : MonoBehaviour
                 break;
         }
 
-        if(isPlayerInRange(range) && currentState != EnemyStates.Die)
+        if (!notInRoom)
         {
-            currentState = EnemyStates.Chase;
+            if (isPlayerInRange(range) && currentState != EnemyStates.Die)
+            {
+                currentState = EnemyStates.Chase;
+            }
+            else if (!isPlayerInRange(range) && currentState != EnemyStates.Die)
+            {
+                currentState = EnemyStates.Patrol;
+            }
+            if (Vector3.Distance(transform.position, player.transform.position) <= attackingRange)
+            {
+                currentState = EnemyStates.Attack;
+            }
         }
-        else if (!isPlayerInRange(range) && currentState != EnemyStates.Die)
+        else
         {
-            currentState = EnemyStates.Patrol;
+            currentState = EnemyStates.Idle;
         }
-        if(Vector3.Distance(transform.position, player.transform.position) <= attackingRange)
-        {
-            currentState = EnemyStates.Attack;
-        }
+        
     }
 
     private bool isPlayerInRange(float range)

@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     #region Public properties
     public static GameController instance; // setting up the singleton
 
-    //public List<string> collectedNames = new List<string>();
+    public List<string> collectedNames = new List<string>();
 
     public Text healthText;
 
@@ -24,8 +24,8 @@ public class GameController : MonoBehaviour
     private static float _bulletSize = 0.5f;
 
     // collectible
-    private bool _bootCollected = false;
-    private bool _screwCollected = false;
+    private bool _speedCollected = false;
+    private bool _scrollCollected = false;
 
     #endregion
 
@@ -81,7 +81,7 @@ public class GameController : MonoBehaviour
         _bulletSize += size;
     }
 
-    /*
+    
     public void UpdateCollectedItems(CollectibleController item)
     {
         collectedNames.Add(item.item.name);
@@ -90,21 +90,21 @@ public class GameController : MonoBehaviour
         {
             switch (i)
             {
-                case "Boot":
-                    _bootCollected = true;
+                case "Speed":
+                    _speedCollected = true;
                     break;
-                case "Screw":
-                    _screwCollected = true;
+                case "Scroll":
+                    _scrollCollected = true;
                     break;
             }
         }
 
-        if (_bootCollected && _screwCollected)
+        if (_speedCollected && _scrollCollected)
         {
             FireRateChange(0.25f);
         }
     }
-    */
+    
     private static void KillPlayer()
     {
 

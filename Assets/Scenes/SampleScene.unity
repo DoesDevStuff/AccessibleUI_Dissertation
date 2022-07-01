@@ -531,6 +531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5800519732595460991, guid: 1a57a6f6b92a5ff46abbb73fe3368f88,
     type: 3}
+  notInRoom: 0
   currentState: 2
   enemyType: 1
   range: 10
@@ -900,7 +901,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 476, y: 0}
+  m_AnchoredPosition: {x: 414, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &409959900
@@ -1105,7 +1106,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 148.1, y: 0}
+  m_AnchoredPosition: {x: 4, y: 0}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &697892213
@@ -1595,6 +1596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 0}
+  notInRoom: 0
   currentState: 2
   enemyType: 0
   range: 10
@@ -2020,7 +2022,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -447.5, y: 225.5}
+  m_AnchoredPosition: {x: -351, y: 232}
   m_SizeDelta: {x: 200, y: 72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1585176968
