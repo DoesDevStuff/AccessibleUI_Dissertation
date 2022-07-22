@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a8a2cb340ce242f08f926738dd5f434, type: 3}
+  m_Name: Trichromacy
+  m_EditorClassIdentifier: 
+  colorTheme: 0
+  playerColor: {r: 0.33681917, g: 0.77135, b: 0.8207547, a: 1}
+  enemyColor: {r: 0.5288454, g: 0.3037113, b: 0.8584906, a: 1}
+  itemsHealthColor: {r: 0.22574759, g: 0.62625545, b: 0.8396226, a: 1}
+  itemsSpeedBuffColor: {r: 0.8301887, g: 0.3563546, b: 0.3563546, a: 1}
+  itemsAttackBuffColor: {r: 0.5985588, g: 0.8962264, b: 0.26633143, a: 1}
+  doorColor: {r: 0.8867924, g: 0.16313636, b: 0.16313636, a: 1}
+  wallColor: {r: 0.2666667, g: 0.36428076, b: 0.8392157, a: 1}

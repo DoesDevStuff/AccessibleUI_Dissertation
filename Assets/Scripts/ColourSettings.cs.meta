@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 5a0f78cacddd04f3ebd9779b43fccbef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - playerMaterial: {fileID: 2100000, guid: 41620df7d65c2420ea577d8eeb9d8bca, type: 2}
+  - enemyMaterial: {fileID: 2100000, guid: f38a4fa321cfb41668940e9229270bca, type: 2}
+  - itemsHealthMaterial: {fileID: 2100000, guid: 166cb3532c9b748d0848b5915f8d8e5a,
+      type: 2}
+  - itemsSpeedBuffMaterial: {fileID: 2100000, guid: 5c4d1d97e04e14d758799e54346cfeda,
+      type: 2}
+  - itemsAttackBuffMaterial: {fileID: 2100000, guid: 5c4d1d97e04e14d758799e54346cfeda,
+      type: 2}
+  - doorMaterials: {fileID: 2100000, guid: cfc403f5241394694ae664b99057ee82, type: 2}
+  - wallMaterial: {fileID: 2100000, guid: 57558aa24a9454358baee3bbc85fcd28, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
