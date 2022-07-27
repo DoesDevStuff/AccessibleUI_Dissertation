@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 [DisallowMultipleComponent]
-[HelpURL("http://www.babilinapps.com/contact/")]
+
 public class MaterialManager : MonoBehaviour {
     [Header("GUI Elements")]
     [Tooltip("GUI Panel that will have the buttons")]
