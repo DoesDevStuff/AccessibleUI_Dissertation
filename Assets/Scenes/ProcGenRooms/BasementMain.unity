@@ -924,6 +924,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0836a5ca78dc92242b90541f5e978894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  circular: 0
+  colorPalette: {fileID: 284329345}
+  thumb: {fileID: 1428955080}
+  value: {r: 0, g: 0, b: 0, a: 0}
+  Offset: 0
+  WasClicked: 0
 --- !u!1 &967558937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1248,7 @@ GameObject:
   - component: {fileID: 1171375743}
   - component: {fileID: 1171375742}
   - component: {fileID: 1171375747}
+  - component: {fileID: 1171375748}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1404,6 +1411,21 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.64, y: 0.64}
   m_EdgeRadius: 0
+--- !u!114 &1171375748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171375741}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388cdc00b2df16241825af5bc00202a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ColorPicker: {fileID: 966803741}
+  MaterialIndex: 0
+  ObjectPaletteToUse: {fileID: 0}
 --- !u!224 &1276437900 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2992665350085575222, guid: 444fe9dfbf77a44c38df2ce7c38d411a,
@@ -2245,6 +2267,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SettingsMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992665350085575217, guid: 444fe9dfbf77a44c38df2ce7c38d411a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2992665350085575222, guid: 444fe9dfbf77a44c38df2ce7c38d411a,
         type: 3}
