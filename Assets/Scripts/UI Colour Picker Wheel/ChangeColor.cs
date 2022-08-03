@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class ChangeColor : MonoBehaviour {
     [Tooltip("What Color Picker Code Will Affect The Color.")]
@@ -10,6 +9,7 @@ public class ChangeColor : MonoBehaviour {
 	public ObjectPalette ObjectPaletteToUse;
 	private bool isCamera;
 	private bool isLight;
+	
 	// Use this for initialization
 	void Start () {
         if (!ObjectPaletteToUse)
@@ -38,11 +38,20 @@ public class ChangeColor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if (ColorPickerToUse) {
-			if (!isCamera && !isLight && gameObject.GetComponent<Renderer> ().material) {
-                if (ColorPickerToUse.value.a < 1)
-                    return;
-				gameObject.GetComponent<Renderer> ().materials[MaterialIndex].color = ColorPickerToUse.value;
+			if (!isCamera && !isLight) {
+				if (ColorPickerToUse.value.a < 1)
+					return;
+				print("Changing colour");
+				// gameObject.GetComponent<Renderer>().materials[MaterialIndex].color = ColorPickerToUse.value;
+				SettingsManager.ChangeColour(ColorPickerToUse.value);
 			}
+			// if (!isCamera && !isLight && gameObject.GetComponent<Renderer> ().material) {
+   //              if (ColorPickerToUse.value.a < 1)
+   //                  return;
+   //              print("Changing colour");
+   //              // gameObject.GetComponent<Renderer>().materials[MaterialIndex].color = ColorPickerToUse.value;
+			// 	SettingsManager.ChangeColour(ColorPickerToUse.value);
+			// }
 			if (isCamera) {
                 if (ColorPickerToUse.value.a < 1)
                     return;

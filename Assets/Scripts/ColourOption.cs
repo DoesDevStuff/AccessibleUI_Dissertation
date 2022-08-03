@@ -7,6 +7,8 @@ public class ColourOption : MonoBehaviour
     [SerializeField] private Button colourButton;
     [SerializeField] private Button resetButton;
     [SerializeField] private TMP_Text optionText;
+    
+    
 
     private void Start()
     {
