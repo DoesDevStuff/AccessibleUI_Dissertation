@@ -18,12 +18,12 @@ public class ColourOption : MonoBehaviour
     
     private void ColourOptionClick()
     {
-        if (SettingsManager.currentColorOption == null)
+        if (SettingsManager.CurrentColorOption == null)
         {
             print("Opening a colour wheel");
             OpenColourWheel();
         }
-        else if (SettingsManager.currentColorOption != this)
+        else if (SettingsManager.CurrentColorOption != this)
         {
             print("Selecting another colour option while another is already open");
         }
@@ -36,7 +36,7 @@ public class ColourOption : MonoBehaviour
     private void OpenColourWheel()
     {
         // Sets the current colour options button as the game object in the settings manager
-        SettingsManager.currentColorOption = null;
+        SettingsManager.CurrentColorOption = null;
         SettingsManager.EnableFullscreenColourWheelCloseButton(this);
         
         colourButton.onClick.RemoveAllListeners();
@@ -51,7 +51,7 @@ public class ColourOption : MonoBehaviour
 
     public void CloseColourWheel()
     {
-        SettingsManager.currentColorOption = null;
+        SettingsManager.CurrentColorOption = null;
         SettingsManager.DisableFullscreenColourWheelCloseButton();
 
         transform.GetComponent<Image>().color = Color.clear;
