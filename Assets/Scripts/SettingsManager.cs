@@ -10,12 +10,18 @@ public class SettingsManager : MonoBehaviour
     private static Scrollbar _scrollbar;
     private static TMP_Dropdown _colourModeDropdown;
     
-    [SerializeField] private Canvas colorPickerCanvas;
+    private static RectTransform _colorPickerCanvas;
+    private static Vector2 _colorPickerCanvasPosition;
+    
+    public static bool ColorWheelOpen = false;
 
     public void Awake()
     {
         _closeColourOptionButton = transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<Button>();
         _scrollRect = transform.GetChild(0).GetChild(3).GetChild(1).GetComponent<ScrollRect>();
+        _colorPickerCanvas = transform.GetChild(0).GetChild(3).GetChild(2).GetComponent<RectTransform>();
+        _colorPickerCanvasPosition = _colorPickerCanvas.anchoredPosition;
+
         _scrollbar = _scrollRect.transform.GetChild(1).GetComponent<Scrollbar>();
         _colourModeDropdown = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<TMP_Dropdown>();
 
@@ -27,9 +33,12 @@ public class SettingsManager : MonoBehaviour
     
     public static void EnableFullscreenColourWheelCloseButton(ColourOption activeColorOption)
     {
+        ColorWheelOpen = true;
         CurrentColorOption = activeColorOption;
         _closeColourOptionButton.onClick.AddListener(CurrentColorOption.CloseColourWheel);
         _closeColourOptionButton.GetComponent<Image>().raycastTarget = true;
+        
+        _colorPickerCanvas.gameObject.SetActive(true);
 
         // Disables scrolling after having opened the colour picker - also enables closure of the colour picker by
         // pressing anywhere on the UI canvas
@@ -41,7 +50,11 @@ public class SettingsManager : MonoBehaviour
         _closeColourOptionButton.GetComponent<Image>().raycastTarget = false;
         _closeColourOptionButton.onClick.RemoveAllListeners();
         
+        _colorPickerCanvas.gameObject.SetActive(false);
+
         EnableSettingsScrolling();
+        ColorWheelOpen = false;
+        print("Setting color wheel to false");
     }
     
     public static void ChangeColour(Color newColour)
@@ -50,7 +63,7 @@ public class SettingsManager : MonoBehaviour
         
         // TODO - Update the material colour as well
     }
-    
+
     private static void DisableSettingsScrolling()
     {
         _scrollRect.enabled = false;
@@ -62,7 +75,4 @@ public class SettingsManager : MonoBehaviour
         _scrollRect.enabled = true;
         _scrollbar.interactable = true;
     }
-
-    
-
 }

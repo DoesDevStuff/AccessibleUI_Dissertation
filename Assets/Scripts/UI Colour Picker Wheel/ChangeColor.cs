@@ -39,9 +39,8 @@ public class ChangeColor : MonoBehaviour {
 	void Update () {
 		if (ColorPickerToUse) {
 			if (!isCamera && !isLight) {
-				if (ColorPickerToUse.value.a < 1)
+				if (ColorPickerToUse.value.a < 1 || !ColorPicker.activeInHierarchy)
 					return;
-				print("Changing colour");
 				// gameObject.GetComponent<Renderer>().materials[MaterialIndex].color = ColorPickerToUse.value;
 				SettingsManager.ChangeColour(ColorPickerToUse.value);
 			}

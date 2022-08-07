@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1153955144949657855}
   - component: {fileID: 8161797664217925028}
   m_Layer: 5
-  m_Name: ColourOptionButton
+  m_Name: ColorOptionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,11 +36,11 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1080, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &7273206977438777093
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 2736150505748541833}
   - component: {fileID: 3823906682846066839}
   m_Layer: 5
-  m_Name: ColourOptionText
+  m_Name: ColorOptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 7746458303508689380}
   - component: {fileID: 7000092458902050380}
   m_Layer: 5
-  m_Name: ColourButton
+  m_Name: ColorButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

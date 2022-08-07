@@ -8,8 +8,6 @@ public class ColourOption : MonoBehaviour
     [SerializeField] private Button resetButton;
     [SerializeField] private TMP_Text optionText;
     
-    
-
     private void Start()
     {
         colourButton.onClick.AddListener(ColourOptionClick);
@@ -18,12 +16,12 @@ public class ColourOption : MonoBehaviour
     
     private void ColourOptionClick()
     {
-        if (SettingsManager.CurrentColorOption == null)
+        if (SettingsManager.CurrentColorOption == null && !SettingsManager.ColorWheelOpen)
         {
             print("Opening a colour wheel");
             OpenColourWheel();
         }
-        else if (SettingsManager.CurrentColorOption != this)
+        else if (SettingsManager.CurrentColorOption != this && SettingsManager.ColorWheelOpen)
         {
             print("Selecting another colour option while another is already open");
         }
@@ -36,7 +34,7 @@ public class ColourOption : MonoBehaviour
     private void OpenColourWheel()
     {
         // Sets the current colour options button as the game object in the settings manager
-        SettingsManager.CurrentColorOption = null;
+        // SettingsManager.CurrentColorOption = null;
         SettingsManager.EnableFullscreenColourWheelCloseButton(this);
         
         colourButton.onClick.RemoveAllListeners();
@@ -44,7 +42,7 @@ public class ColourOption : MonoBehaviour
 
         transform.GetComponent<Image>().color = Color.black;
         optionText.color = Color.white;
-        
+
         // TODO - Save Colours to persist across play instances
         // TODO - Change colour of the game prefabs 
     }
