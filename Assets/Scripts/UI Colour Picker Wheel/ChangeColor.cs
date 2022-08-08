@@ -42,7 +42,7 @@ public class ChangeColor : MonoBehaviour {
 				if (ColorPickerToUse.value.a < 1 || !ColorPicker.activeInHierarchy)
 					return;
 				// gameObject.GetComponent<Renderer>().materials[MaterialIndex].color = ColorPickerToUse.value;
-				SettingsManager.ChangeColour(ColorPickerToUse.value);
+				SettingsManager.ChangeColor(ColorPickerToUse.value);
 			}
 			// if (!isCamera && !isLight && gameObject.GetComponent<Renderer> ().material) {
    //              if (ColorPickerToUse.value.a < 1)

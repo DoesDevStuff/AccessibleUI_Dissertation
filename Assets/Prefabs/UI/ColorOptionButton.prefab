@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7281312479573168074}
   - component: {fileID: 7273206977438777093}
   - component: {fileID: 1153955144949657855}
-  - component: {fileID: 8161797664217925028}
+  - component: {fileID: 2802920870638850378}
   m_Layer: 5
   m_Name: ColorOptionButton
   m_TagString: Untagged
@@ -78,7 +78,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8161797664217925028
+--- !u!114 &2802920870638850378
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,10 +87,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 982759056193866368}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d68f334b8d7142d7bf3abaed4f128eb, type: 3}
+  m_Script: {fileID: 11500000, guid: ab636f9cb84d42e69e0619fc91c444d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  colourButton: {fileID: 7000092458902050380}
+  colorButton: {fileID: 7000092458902050380}
   resetButton: {fileID: 6016784729236417699}
   optionText: {fileID: 3823906682846066839}
 --- !u!1 &1601835624712100842

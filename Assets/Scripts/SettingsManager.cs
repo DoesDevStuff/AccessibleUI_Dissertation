@@ -4,11 +4,11 @@ using TMPro;
 
 public class SettingsManager : MonoBehaviour
 {
-    public static ColourOption CurrentColorOption;
-    private static Button _closeColourOptionButton;
+    public static ColorOption CurrentColorOption;
+    private static Button _closeColorOptionButton;
     private static ScrollRect _scrollRect;
     private static Scrollbar _scrollbar;
-    private static TMP_Dropdown _colourModeDropdown;
+    private static TMP_Dropdown _colorModeDropdown;
     
     private static RectTransform _colorPickerCanvas;
     private static Vector2 _colorPickerCanvasPosition;
@@ -16,49 +16,51 @@ public class SettingsManager : MonoBehaviour
 
     public void Awake()
     {
-        _closeColourOptionButton = transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<Button>();
+        _closeColorOptionButton = transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<Button>();
         _scrollRect = transform.GetChild(0).GetChild(3).GetChild(1).GetComponent<ScrollRect>();
         _colorPickerCanvas = transform.GetChild(0).GetChild(3).GetChild(2).GetComponent<RectTransform>();
         _colorPickerCanvasPosition = _colorPickerCanvas.anchoredPosition;
 
         _scrollbar = _scrollRect.transform.GetChild(1).GetComponent<Scrollbar>();
-        _colourModeDropdown = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<TMP_Dropdown>();
+        _colorModeDropdown = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<TMP_Dropdown>();
 
-        _colourModeDropdown.onValueChanged.AddListener(delegate
+        _colorModeDropdown.onValueChanged.AddListener(delegate
         {
-            print(_colourModeDropdown.options[_colourModeDropdown.value]);
+            print(_colorModeDropdown.options[_colorModeDropdown.value]);
         });
     }
     
-    public static void EnableFullscreenColourWheelCloseButton(ColourOption activeColorOption)
+    public static void EnableFullscreenColorWheelCloseButton(ColorOption activeColorOption)
     {
-        CurrentColorOption = activeColorOption;
-        _closeColourOptionButton.onClick.AddListener(CurrentColorOption.CloseColourWheel);
-        _closeColourOptionButton.GetComponent<Image>().raycastTarget = true;
+        if (_colorPickerCanvas.gameObject.activeSelf) return;
         
+        CurrentColorOption = activeColorOption;
         _colorPickerCanvas.gameObject.SetActive(true);
+        _closeColorOptionButton.GetComponent<Image>().raycastTarget = true;
+        _closeColorOptionButton.onClick.AddListener(CurrentColorOption.CloseColorWheel);
+        
 
-        // Disables scrolling after having opened the colour picker - also enables closure of the colour picker by
+        // Disables scrolling after having opened the color picker - also enables closure of the color picker by
         // pressing anywhere on the UI canvas
         DisableSettingsScrolling();
     }
 
-    public static void DisableFullscreenColourWheelCloseButton()
+    public static void DisableFullscreenColorWheelCloseButton()
     {
         CurrentColorOption = null;
-        _closeColourOptionButton.GetComponent<Image>().raycastTarget = false;
-        _closeColourOptionButton.onClick.RemoveAllListeners();
+        _closeColorOptionButton.GetComponent<Image>().raycastTarget = false;
+        _closeColorOptionButton.onClick.RemoveAllListeners();
         
         _colorPickerCanvas.gameObject.SetActive(false);
 
         EnableSettingsScrolling();
     }
     
-    public static void ChangeColour(Color newColour)
+    public static void ChangeColor(Color newColor)
     {
-        CurrentColorOption.transform.GetChild(1).GetComponent<Image>().color = newColour;
+        CurrentColorOption.transform.GetChild(1).GetComponent<Image>().color = newColor;
         
-        // TODO - Update the material colour as well
+        // TODO - Update the material color as well
     }
 
     private static void DisableSettingsScrolling()
