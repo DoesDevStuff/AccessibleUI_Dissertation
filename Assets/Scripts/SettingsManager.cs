@@ -13,7 +13,6 @@ public class SettingsManager : MonoBehaviour
     private static RectTransform _colorPickerCanvas;
     private static Vector2 _colorPickerCanvasPosition;
     
-    public static bool ColorWheelOpen = false;
 
     public void Awake()
     {
@@ -33,7 +32,6 @@ public class SettingsManager : MonoBehaviour
     
     public static void EnableFullscreenColourWheelCloseButton(ColourOption activeColorOption)
     {
-        ColorWheelOpen = true;
         CurrentColorOption = activeColorOption;
         _closeColourOptionButton.onClick.AddListener(CurrentColorOption.CloseColourWheel);
         _closeColourOptionButton.GetComponent<Image>().raycastTarget = true;
@@ -47,14 +45,13 @@ public class SettingsManager : MonoBehaviour
 
     public static void DisableFullscreenColourWheelCloseButton()
     {
+        CurrentColorOption = null;
         _closeColourOptionButton.GetComponent<Image>().raycastTarget = false;
         _closeColourOptionButton.onClick.RemoveAllListeners();
         
         _colorPickerCanvas.gameObject.SetActive(false);
 
         EnableSettingsScrolling();
-        ColorWheelOpen = false;
-        print("Setting color wheel to false");
     }
     
     public static void ChangeColour(Color newColour)

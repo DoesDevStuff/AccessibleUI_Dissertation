@@ -16,18 +16,13 @@ public class ColourOption : MonoBehaviour
     
     private void ColourOptionClick()
     {
-        if (SettingsManager.CurrentColorOption == null && !SettingsManager.ColorWheelOpen)
+        if (SettingsManager.CurrentColorOption == null)
         {
-            print("Opening a colour wheel");
             OpenColourWheel();
         }
-        else if (SettingsManager.CurrentColorOption != this && SettingsManager.ColorWheelOpen)
+        else if (SettingsManager.CurrentColorOption != this)
         {
-            print("Selecting another colour option while another is already open");
-        }
-        else
-        {
-            print("Selecting the same colour option");
+            // TODO - Switch to the new colour option
         }
     }
 
@@ -55,6 +50,7 @@ public class ColourOption : MonoBehaviour
         transform.GetComponent<Image>().color = Color.clear;
         optionText.color = Color.black;
         
+        colourButton.onClick.RemoveAllListeners();
         colourButton.onClick.AddListener(ColourOptionClick);
     }
     
