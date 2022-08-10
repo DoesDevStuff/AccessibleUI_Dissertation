@@ -7,7 +7,8 @@ public class ColorOption : MonoBehaviour
     [SerializeField] private Button colorButton;
     [SerializeField] private Button resetButton;
     [SerializeField] private TMP_Text optionText;
-    
+    public Material spriteMaterial;
+
     private void Start()
     {
         colorButton.onClick.AddListener(ColorOptionClick);
