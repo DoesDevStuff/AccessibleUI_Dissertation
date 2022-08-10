@@ -1,4 +1,4 @@
-# AccessibleUI_Dissertation
+# Designing an accessible UI / UX framework to enhance player experiences within games
 Dissertation project for my Computer Games Technology Masters
 
 # Summary
