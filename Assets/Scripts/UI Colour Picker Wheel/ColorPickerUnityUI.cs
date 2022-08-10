@@ -57,12 +57,15 @@ public class ColorPickerUnityUI : MonoBehaviour {
 	// called by event on object
 	public void OnPress(){
 			UpdateThumbPosition ();
+			SettingsManager.ChangeColor(value);
         WasClicked = true;
 	}
 	// called by event on object
 	public void OnDrag(){
 			UpdateThumbPosition ();
-        WasClicked = true;
+			// print(value);
+			SettingsManager.ChangeColor(value);
+			WasClicked = true;
 
     }
 	

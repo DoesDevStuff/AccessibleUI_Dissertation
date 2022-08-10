@@ -12,14 +12,18 @@ public class SettingsManager : MonoBehaviour
     
     private static RectTransform _colorPickerCanvas;
     private static Vector2 _colorPickerCanvasPosition;
-    
 
+    private static ColorPickerUnityUI _colorPickerUnityUI;
+    
     public void Awake()
     {
         _closeColorOptionButton = transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<Button>();
         _scrollRect = transform.GetChild(0).GetChild(3).GetChild(1).GetComponent<ScrollRect>();
         _colorPickerCanvas = transform.GetChild(0).GetChild(3).GetChild(2).GetComponent<RectTransform>();
         _colorPickerCanvasPosition = _colorPickerCanvas.anchoredPosition;
+
+        _colorPickerUnityUI = _colorPickerCanvas.transform.GetChild(1).GetComponent<ColorPickerUnityUI>();
+        print(_colorPickerUnityUI);
 
         _scrollbar = _scrollRect.transform.GetChild(1).GetComponent<Scrollbar>();
         _colorModeDropdown = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<TMP_Dropdown>();
@@ -34,6 +38,7 @@ public class SettingsManager : MonoBehaviour
     {
         if (_colorPickerCanvas.gameObject.activeSelf) return;
         
+        _colorPickerUnityUI.ResetTumb();
         CurrentColorOption = activeColorOption;
         _colorPickerCanvas.gameObject.SetActive(true);
         _closeColorOptionButton.GetComponent<Image>().raycastTarget = true;
