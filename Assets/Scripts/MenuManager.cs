@@ -10,10 +10,10 @@ public class MenuManager : MonoBehaviour
 
     private void Awake()
     {
-        menuButton.onClick.AddListener(openSettings);
+        menuButton.onClick.AddListener(OpenSettings);
     }
 
-    private void openSettings()
+    private void OpenSettings()
     {
         menuOverlay.SetActive(true);
         settingsMenu.SetActive(true);
