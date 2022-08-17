@@ -15,5 +15,5 @@ MonoBehaviour:
   familirType: FamiliarAnima
   speed: 2.5
   fireDelay: 1
-  bulletPrefab: {fileID: 5800519732595460991, guid: 1a57a6f6b92a5ff46abbb73fe3368f88,
+  bulletPrefab: {fileID: 5780557702224587304, guid: 1a57a6f6b92a5ff46abbb73fe3368f88,
     type: 3}
