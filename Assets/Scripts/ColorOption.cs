@@ -4,11 +4,24 @@ using TMPro;
 
 public class ColorOption : MonoBehaviour
 {
-    [SerializeField] private Button colorButton;
+    public Button colorButton;
     [SerializeField] private Button resetButton;
     [SerializeField] private TMP_Text optionText;
     public Material spriteMaterial;
 
+    public enum ColorOptionEnum
+    {
+        Player,
+        Enemy,
+        ItemHealth,
+        ItemAttack,
+        ItemSpeed,
+        Wall,
+        Door
+    }
+
+    public ColorOptionEnum colorOptionName;
+    
     private void Start()
     {
         colorButton.onClick.AddListener(ColorOptionClick);

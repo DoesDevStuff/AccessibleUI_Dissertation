@@ -8,7 +8,6 @@ public class SettingsManager : MonoBehaviour
     private static Button _closeColorOptionButton;
     private static ScrollRect _scrollRect;
     private static Scrollbar _scrollbar;
-    private static TMP_Dropdown _colorModeDropdown;
     
     private static RectTransform _colorPickerCanvas;
     private static Vector2 _colorPickerCanvasPosition;
@@ -29,13 +28,7 @@ public class SettingsManager : MonoBehaviour
         _colorPickerUnityUI = _colorPickerCanvas.transform.GetChild(1).GetComponent<ColorPickerUnityUI>();
 
         _scrollbar = _scrollRect.transform.GetChild(1).GetComponent<Scrollbar>();
-        _colorModeDropdown = transform.GetChild(0).GetChild(0).GetChild(1).GetComponent<TMP_Dropdown>();
 
-        _colorModeDropdown.onValueChanged.AddListener(delegate
-        {
-            print(_colorModeDropdown.options[_colorModeDropdown.value]);
-        });
-        
         closeButton.onClick.AddListener(CloseSettings);
         menuOverlay = transform.parent.GetChild(1).GetComponent<Image>();
     }

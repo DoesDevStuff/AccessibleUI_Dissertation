@@ -64,7 +64,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Default
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 83ae8be6304694efa9df3200d5bbd074, type: 2}
   m_sharedMaterial: {fileID: 4677858830467454703, guid: 83ae8be6304694efa9df3200d5bbd074,
@@ -403,15 +403,7 @@ MonoBehaviour:
   m_ItemImage: {fileID: 0}
   m_Value: 0
   m_Options:
-    m_Options:
-    - m_Text: Default
-      m_Image: {fileID: 0}
-    - m_Text: Trichromacy
-      m_Image: {fileID: 0}
-    - m_Text: Dichromacy
-      m_Image: {fileID: 0}
-    - m_Text: Monochromacy
-      m_Image: {fileID: 0}
+    m_Options: []
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -463,6 +455,7 @@ GameObject:
   - component: {fileID: 1235015787641516659}
   - component: {fileID: 2066213535208294416}
   - component: {fileID: 6086239528127199007}
+  - component: {fileID: 710128560160239104}
   m_Layer: 5
   m_Name: ColorModeContainer
   m_TagString: Untagged
@@ -530,6 +523,33 @@ MonoBehaviour:
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
+--- !u!114 &710128560160239104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3574377976571545928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da30aa3d4325848ef9b9617f455be6bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMaterial: {fileID: 2100000, guid: 4e1bb294df60b44b3adacdd141e335e3, type: 2}
+  enemyMaterial: {fileID: 2100000, guid: 58bff4e6abfbb4583b81b9adea4977c6, type: 2}
+  itemsHealthMaterial: {fileID: 2100000, guid: 91e35ee6f94454c08ab5e678219f6dcc, type: 2}
+  itemsSpeedBuffMaterial: {fileID: 2100000, guid: a8f73486e49434a2fbc62c8de4eb7583,
+    type: 2}
+  itemsAttackBuffMaterial: {fileID: 2100000, guid: c10a15ab938734aed88ea346d5a2d474,
+    type: 2}
+  doorMaterials: {fileID: 2100000, guid: bb98fabd96ef84239863c058d1fd054c, type: 2}
+  wallMaterial: {fileID: 2100000, guid: 4e440108ec50645058267a330ca180f9, type: 2}
+  colorModes:
+  - {fileID: 11400000, guid: f5165d67ac41449bcad93d4a3b133ee9, type: 2}
+  - {fileID: 11400000, guid: 0e74aa83aff134b4e96770f7582667ed, type: 2}
+  - {fileID: 11400000, guid: 6643ce6497d9a44b2a192707f7162b21, type: 2}
+  - {fileID: 11400000, guid: 6924c07300bc649488c6f0b3467d6fe2, type: 2}
+  dropdown: {fileID: 5188438280363974675}
 --- !u!1 &3600427434374019010
 GameObject:
   m_ObjectHideFlags: 0
