@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
     GameObject player;
     public GameObject bulletPrefab;
 
-    public bool notInRoom = false;
+    
 
     [SerializeField] EnemyStates currentState = EnemyStates.Patrol;
     [SerializeField] EnemyType enemyType;
@@ -42,6 +42,8 @@ public class EnemyController : MonoBehaviour
     [SerializeField] float bulletSpeed;
     [SerializeField] float coolDown = 2f;
 
+
+    public bool notInRoom = false;
     #endregion
 
     #region Private properties
@@ -154,6 +156,7 @@ public class EnemyController : MonoBehaviour
 
     public void Death()
     {
+        RoomController.instance.StartCoroutine(RoomController.instance.RoomCoroutine());
         Destroy(gameObject);
     }
 
