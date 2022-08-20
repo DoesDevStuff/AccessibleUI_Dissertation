@@ -15,9 +15,8 @@ public class SettingsManager : MonoBehaviour
     private static ColorPickerUnityUI _colorPickerUnityUI;
 
     [SerializeField] private Button closeButton;
-    private Image menuOverlay;
-    
-    
+
+
     public void Awake()
     {
         _closeColorOptionButton = transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<Button>();
@@ -30,7 +29,6 @@ public class SettingsManager : MonoBehaviour
         _scrollbar = _scrollRect.transform.GetChild(1).GetComponent<Scrollbar>();
 
         closeButton.onClick.AddListener(CloseSettings);
-        menuOverlay = transform.parent.GetChild(1).GetComponent<Image>();
     }
     
     public static void EnableFullscreenColorWheelCloseButton(ColorOption activeColorOption)
@@ -83,6 +81,5 @@ public class SettingsManager : MonoBehaviour
     private void CloseSettings()
     {
         gameObject.SetActive(false);
-        menuOverlay.gameObject.SetActive(false);
     }
 }
