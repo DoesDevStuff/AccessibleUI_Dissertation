@@ -694,6 +694,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ColourSettingsOptions
       objectReference: {fileID: 0}
+    - target: {fileID: 2065991370186782468, guid: 3a8466b0401b8446fa2d58aee0e27cca,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2115404652868545197, guid: 3a8466b0401b8446fa2d58aee0e27cca,
         type: 3}
       propertyPath: m_AnchorMax.y

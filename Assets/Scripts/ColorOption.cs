@@ -34,14 +34,6 @@ public class ColorOption : MonoBehaviour
         {
             OpenColorWheel();
         }
-        // else
-        // {
-        //     print("Changing color");
-        //     ResetCurrentColorOption();
-        //     OpenColorWheel();
-        //     print("New color option is");
-        //     print(SettingsManager.CurrentColorOption.gameObject.name);
-        // }
     }
 
     public void CloseColorWheel()
