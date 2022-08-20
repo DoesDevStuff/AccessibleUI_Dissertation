@@ -36,7 +36,7 @@ public class SettingsManager : MonoBehaviour
     public static void EnableFullscreenColorWheelCloseButton(ColorOption activeColorOption)
     {
         if (_colorPickerCanvas.gameObject.activeSelf) return;
-        print("Opening color wheel");
+
         _colorPickerUnityUI.ResetTumb();
         CurrentColorOption = activeColorOption;
         _colorPickerCanvas.gameObject.SetActive(true);
