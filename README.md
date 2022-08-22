@@ -19,8 +19,8 @@ At present it contains procedurally generated rooms, enemies and items contained
 For the sake of the user test, player death is disabled to allow players to continue to fully test out the colour customisation features which forms the base of this dissertation.
 
 # User Controls
-WASD Keys - to move around screen
-Arrow Keys - to shoot projectiles at enemy characters
+1. WASD Keys - to move around screen
+2. Arrow Keys - to shoot projectiles at enemy characters
 
 
 ## Files and Links
