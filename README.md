@@ -39,7 +39,7 @@ Hardware requirements for optimal performance:
 
 For Simulating ColourBlindness
 - Colour Oracle - https://colororacle.org/
-⚠Note: Colour Oracle requires Java 6 or higher
+<br> ⚠Note: Colour Oracle requires Java 6 or higher
 For Windows - https://www.java.com/en/download/
 
 #### Instructions for running Colour Oracle
