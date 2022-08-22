@@ -8,3 +8,42 @@ The idea would be to enable players regardless of disability to enjoy a game wit
 <br>
 In recent years accessibility has become an important topic within the games industry. However, it hasn’t been applied in practice as much. This project attempts to showcase its importance for improving player experiences and why it is important for developers to incorporate it within their game designs along with a working template for them to use / learn from.
 <br>
+
+
+# The Game
+This is a prototyped version similar to Binding of Isaac which heavily influenced the visual style and player movement.
+At present it contains procedurally generated rooms, enemies and items contained in those rooms.
+
+⚠Notice: The game is a technical verification prototype still under development, and is currently intended for author's master thesis only.
+
+For the sake of the user test, player death is disabled to allow players to continue to fully test out the colour customisation features which forms the base of this dissertation.
+
+# User Controls
+WASD Keys - to move around screen
+Arrow Keys - to shoot projectiles at enemy characters
+
+
+## Files and Links
+Download the latest release for playtesting: 
+
+### For user test participants:
+Questionnaire link: https://forms.office.com/r/FQyEFAf9CD
+*This is an anonymous questionnaire. Your personal data, including email address, will not be collected.*
+
+### Platform and technologies
+
+Hardware requirements for optimal performance: 
+
+- PC, Windows, Mac, Linux
+- Keyboard
+
+For Simulating ColourBlindness
+- Colour Oracle - https://colororacle.org/
+⚠Note: Colour Oracle requires Java 6 or higher
+For Windows - https://www.java.com/en/download/
+
+#### Instructions for running Colour Oracle
+- Ensure you have Java installed
+- Once Java is installed simply run the Colour Orale executable
+- It will be pinned to taskbar (in the bottom right / in tray)
+- right-click and select your colourblind setting option
