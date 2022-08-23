@@ -65,7 +65,15 @@ Hardware requirements for optimal performance:
 - Keyboard
 
 #### For Simulating ColourBlindness
-1. Colour Oracle - https://colororacle.org/
+
+1. Windows Accessibility filter
+  - To run Cntrl + U -> Color Filters
+  - Turn on color filter
+    <br> ![image](https://user-images.githubusercontent.com/74312830/186113382-86c5aa6c-9d05-4124-8be0-8205c42d0641.png)
+  - Select the desired simulation mode 
+    <br> ![image](https://user-images.githubusercontent.com/74312830/186113545-1595714b-c156-4a4c-8cc1-11d5dfbb0619.png)
+
+2. Colour Oracle - https://colororacle.org/  [Alternative Non - Persistent]
 <br> ⚠Note: Colour Oracle requires Java 6 or higher
 For Windows - https://www.java.com/en/download/
 
@@ -74,12 +82,4 @@ Instructions for running Colour Oracle
 - Once Java is installed simply run the Colour Orale executable
 - It will be pinned to taskbar (in the bottom right / in tray)
 - right-click and select your colourblind setting option
-
-2. Windows Accessibility filter
-  - To run Cntrl + U -> Color Filters
-  - Turn on color filter
-    <br> ![image](https://user-images.githubusercontent.com/74312830/186113382-86c5aa6c-9d05-4124-8be0-8205c42d0641.png)
-  - Select the desired simulation mode 
-    <br> ![image](https://user-images.githubusercontent.com/74312830/186113545-1595714b-c156-4a4c-8cc1-11d5dfbb0619.png)
-
 
