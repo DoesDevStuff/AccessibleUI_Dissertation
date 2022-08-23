@@ -24,7 +24,18 @@ For the sake of the user test, player death is disabled to allow players to cont
 3. Esc - Pulls up menu screen
 
 ## Files and Links
-Download the latest release for playtesting: [Version-User Test.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9401807/Version-User.Test.zip)
+Download the latest release for playtesting:
+1. WINDOWS
+[Version-UserTest_WINDOWS.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409744/Version-UserTest_WINDOWS.zip)
+<br>
+
+2. MAC
+[Version-UserTest_MAC.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409751/Version-UserTest_MAC.zip)
+<br>
+
+3. LINUX (compressed with 7zip)
+[UserTest Linux_2.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409826/UserTest.Linux_2.zip)
+<br>
 
 ## For user test participants:
 For the user test the following tasks are to be completed by the tester :
