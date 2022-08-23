@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Default
   m_EditorClassIdentifier: 
   colorTheme: 0
-  playerColor: {r: 1, g: 1, b: 1, a: 1}
-  enemyColor: {r: 1, g: 1, b: 1, a: 1}
-  itemsHealthColor: {r: 1, g: 1, b: 1, a: 1}
-  itemsSpeedBuffColor: {r: 1, g: 1, b: 1, a: 1}
-  itemsAttackBuffColor: {r: 1, g: 1, b: 1, a: 1}
-  doorColor: {r: 1, g: 1, b: 1, a: 1}
-  wallColor: {r: 1, g: 1, b: 1, a: 1}
+  playerColor: {r: 0.90588236, g: 0.83137256, b: 0.9098039, a: 1}
+  enemyColor: {r: 1, g: 1, b: 0.7490196, a: 1}
+  itemsHealthColor: {r: 0.95686275, g: 0.42745098, b: 0.2627451, a: 1}
+  itemsSpeedBuffColor: {r: 0.27058825, g: 0.45882353, b: 0.7058824, a: 1}
+  itemsAttackBuffColor: {r: 0.77254903, g: 0.105882354, b: 0.49019608, a: 1}
+  doorColor: {r: 0.105882354, g: 0.47058824, b: 0.21568628, a: 1}
+  wallColor: {r: 0.4627451, g: 0.16470589, b: 0.5137255, a: 1}

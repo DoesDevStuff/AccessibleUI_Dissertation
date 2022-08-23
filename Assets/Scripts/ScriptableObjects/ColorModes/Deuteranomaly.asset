@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Deuteranomaly
   m_EditorClassIdentifier: 
   colorTheme: 1
-  playerColor: {r: 1, g: 1, b: 1, a: 1}
-  enemyColor: {r: 0.8207547, g: 0.081301175, b: 0.081301175, a: 1}
-  itemsHealthColor: {r: 0.764151, g: 0.66386163, b: 0.24150053, a: 1}
-  itemsSpeedBuffColor: {r: 0.11836952, g: 0.30863202, b: 0.7169812, a: 1}
-  itemsAttackBuffColor: {r: 0.8018868, g: 0.23829654, b: 0.78590506, a: 1}
-  doorColor: {r: 0.31686282, g: 0.7075472, b: 0.23028658, a: 1}
-  wallColor: {r: 0.1788003, g: 0.66535527, b: 0.7735849, a: 1}
+  playerColor: {r: 0.8039216, g: 0.78431374, b: 0.9607843, a: 1}
+  enemyColor: {r: 0.6509804, g: 0.5921569, b: 0.3137255, a: 1}
+  itemsHealthColor: {r: 0.36078432, g: 0.44313726, b: 0.6901961, a: 1}
+  itemsSpeedBuffColor: {r: 0.8490566, g: 0.6047526, b: 0.6283949, a: 1}
+  itemsAttackBuffColor: {r: 0.9529412, g: 0.7058824, b: 0, a: 1}
+  doorColor: {r: 0.94509804, g: 0.7372549, b: 0.48235294, a: 1}
+  wallColor: {r: 0.5137255, g: 0.44313726, b: 0.44313726, a: 1}

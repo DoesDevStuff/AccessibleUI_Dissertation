@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Monochromacy
   m_EditorClassIdentifier: 
   colorTheme: 3
-  playerColor: {r: 0, g: 0, b: 0, a: 1}
-  enemyColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
-  itemsHealthColor: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
-  itemsSpeedBuffColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 1}
-  itemsAttackBuffColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
-  doorColor: {r: 1, g: 1, b: 1, a: 1}
-  wallColor: {r: 1, g: 1, b: 1, a: 1}
+  playerColor: {r: 0.8, g: 0.8352941, b: 0.5137255, a: 1}
+  enemyColor: {r: 0.77254903, g: 0.5686275, b: 0.7294118, a: 1}
+  itemsHealthColor: {r: 0.73333335, g: 0.827451, b: 0.87058824, a: 1}
+  itemsSpeedBuffColor: {r: 0.5803922, g: 0.38431373, b: 0.35686275, a: 1}
+  itemsAttackBuffColor: {r: 0.8352941, g: 0.7921569, b: 0.57254905, a: 1}
+  doorColor: {r: 0.76862746, g: 0.72156864, b: 0.8156863, a: 1}
+  wallColor: {r: 0.34901962, g: 0.3137255, b: 0.29411766, a: 1}

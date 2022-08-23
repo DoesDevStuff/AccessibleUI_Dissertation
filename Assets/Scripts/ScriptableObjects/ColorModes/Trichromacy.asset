@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Trichromacy
   m_EditorClassIdentifier: 
   colorTheme: 2
-  playerColor: {r: 0.9245283, g: 0.87100446, b: 0.24857599, a: 1}
-  enemyColor: {r: 0.8679245, g: 0.23335704, b: 0.61341876, a: 1}
-  itemsHealthColor: {r: 0.14324492, g: 0.76851237, b: 0.8207547, a: 1}
-  itemsSpeedBuffColor: {r: 0.9245283, g: 0.20496617, b: 0.59118074, a: 1}
-  itemsAttackBuffColor: {r: 0.6698113, g: 0.13585795, b: 0.13585795, a: 1}
-  doorColor: {r: 0.48739383, g: 0.25511748, b: 0.8584906, a: 1}
-  wallColor: {r: 0.76073205, g: 0.8396226, b: 0.19406372, a: 1}
+  playerColor: {r: 0.6117647, g: 0.8392157, b: 0.90588236, a: 1}
+  enemyColor: {r: 1, g: 0.36078432, b: 0.38039216, a: 1}
+  itemsHealthColor: {r: 0.7921569, g: 0.9019608, b: 0.972549, a: 1}
+  itemsSpeedBuffColor: {r: 0.49019608, g: 0.7058824, b: 0.7647059, a: 1}
+  itemsAttackBuffColor: {r: 1, g: 0.7607843, b: 0.80784315, a: 1}
+  doorColor: {r: 0.43137255, g: 0.24705882, b: 0.2627451, a: 1}
+  wallColor: {r: 0, g: 0.37254903, b: 0.4, a: 1}
