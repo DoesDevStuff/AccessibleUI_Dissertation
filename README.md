@@ -21,7 +21,7 @@ For the sake of the user test, player death is disabled to allow players to cont
 # User Controls
 1. WASD Keys - to move around screen
 2. Arrow Keys - to shoot projectiles at enemy characters
-
+3. Esc - Pulls up menu screen
 
 ## Files and Links
 Download the latest release for playtesting: [Version-User Test.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9401807/Version-User.Test.zip)
