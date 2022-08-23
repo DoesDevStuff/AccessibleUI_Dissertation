@@ -24,8 +24,7 @@ For the sake of the user test, player death is disabled to allow players to cont
 
 
 ## Files and Links
-Download the latest release for playtesting: [Version-User Test.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9401684/Version-User.Test.zip)
-
+Download the latest release for playtesting: [Version-User Test.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9401807/Version-User.Test.zip)
 
 ### For user test participants:
 Questionnaire link: https://forms.office.com/r/FQyEFAf9CD
