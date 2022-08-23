@@ -26,10 +26,34 @@ For the sake of the user test, player death is disabled to allow players to cont
 ## Files and Links
 Download the latest release for playtesting: [Version-User Test.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9401807/Version-User.Test.zip)
 
-### For user test participants:
-Questionnaire link: https://forms.office.com/r/FQyEFAf9CD
+## For user test participants:
+For the user test the following tasks are to be completed by the tester :
+*sample test run through is attached in section below*
+1. Load up game and go through in default colour mode
+2. Open setting menu -> Select through either custom colour choice or preset option (This cycles through various colourblind colour modes)
+3. In Preset Mode ideally have a run through of each setting in a different room or same room
+4. Colour customisation mode - This will allow you to choose your own colour choice options for each available setting
+5. To simulate colourblind filters (In windows) follow steps below and note how the colour appears differently to you
+6. Lastly fill out the feedback form attached below.
+
+### Questionnaire link: 
+https://forms.office.com/r/FQyEFAf9CD
 *This is an anonymous questionnaire. Your personal data, including email address, will not be collected.*
 
+### Sample run through
+<b> 1. Colour preset option <b>
+
+https://user-images.githubusercontent.com/74312830/186148567-7d8cec54-7815-4e5c-b195-16f89b30a044.mp4
+
+
+<b> 2. Custom Colour Mode <b>
+  
+
+https://user-images.githubusercontent.com/74312830/186149693-c82bb222-a8f9-45d7-9b1e-895db5a061d8.mp4
+
+
+<b> 3. Simulate the colourblind accessibilty filter (windows) <b>
+  
 ## Platform and technologies
 
 Hardware requirements for optimal performance: 
