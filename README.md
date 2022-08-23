@@ -73,7 +73,7 @@ Hardware requirements for optimal performance:
   - Select the desired simulation mode 
     <br> ![image](https://user-images.githubusercontent.com/74312830/186113545-1595714b-c156-4a4c-8cc1-11d5dfbb0619.png)
 
-2. Colour Oracle - https://colororacle.org/  [Alternative Non - Persistent]
+2. Colour Oracle - https://colororacle.org/  [Alternative Non - Persistent] [ For Windows, Mac OS and Linux ]
 <br> ⚠Note: Colour Oracle requires Java 6 or higher
 For Windows - https://www.java.com/en/download/
 
