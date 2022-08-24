@@ -19,9 +19,9 @@ public class SettingsManager : MonoBehaviour
 
     public void Awake()
     {
-        _closeColorOptionButton = transform.GetChild(0).GetChild(3).GetChild(0).GetComponent<Button>();
-        _scrollRect = transform.GetChild(0).GetChild(3).GetChild(1).GetComponent<ScrollRect>();
-        _colorPickerCanvas = transform.GetChild(0).GetChild(3).GetChild(2).GetComponent<RectTransform>();
+        _closeColorOptionButton = transform.GetChild(0).GetChild(4).GetChild(0).GetComponent<Button>();
+        _scrollRect = transform.GetChild(0).GetChild(4).GetChild(1).GetComponent<ScrollRect>();
+        _colorPickerCanvas = transform.GetChild(0).GetChild(4).GetChild(2).GetComponent<RectTransform>();
         _colorPickerCanvasPosition = _colorPickerCanvas.anchoredPosition;
 
         _colorPickerUnityUI = _colorPickerCanvas.transform.GetChild(1).GetComponent<ColorPickerUnityUI>();
