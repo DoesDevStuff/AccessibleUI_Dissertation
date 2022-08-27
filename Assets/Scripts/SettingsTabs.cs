@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class SettingsTabs : MonoBehaviour
 {
-
     [BoxGroup("Buttons")]
     [SerializeField] private Button controlTabButton;
     [BoxGroup("Buttons")]
@@ -20,6 +19,9 @@ public class SettingsTabs : MonoBehaviour
     [SerializeField] private GameObject controlImage;
     [BoxGroup("GameObjects")]
     [SerializeField] private GameObject colorSettings;
+
+    [SerializeField] private ColorModeSetting _colorModeSetting;
+    
 
     private readonly Color _blackColor = new Color(20, 20, 20);
     
@@ -43,8 +45,20 @@ public class SettingsTabs : MonoBehaviour
 
     private void OpenColorSettings()
     {
+        
         controlImage.SetActive(false);
         colorSettings.SetActive(true);
+
+        if (!_colorModeSetting.assignedColorOptions)
+        {
+            _colorModeSetting.AssignColorOptions();
+        }
+        
+        if (_colorModeSetting.shouldUpdateColorOptions)
+        {
+            _colorModeSetting.ChangeColorMode();
+            _colorModeSetting.shouldUpdateColorOptions = false;
+        }
         
         controlTabButton.GetComponent<Image>().sprite = inactiveButtonSprite;
         colorSettingsTabButton.GetComponent<Image>().sprite = activeButtonSprite;

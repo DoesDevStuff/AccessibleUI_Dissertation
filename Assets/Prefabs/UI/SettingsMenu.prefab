@@ -582,6 +582,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1219944857484287854}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1816357251063984494 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 710128560160239104, guid: c7ad0a7b034e941a782e3696d6aa05cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 1219944857484287854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da30aa3d4325848ef9b9617f455be6bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2263801820182145095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1341,6 +1353,11 @@ PrefabInstance:
       propertyPath: _colorSettings
       value: 
       objectReference: {fileID: 298701302819146569}
+    - target: {fileID: 4939719458052364170, guid: 204a8d0e2bac741c8a6cb80e0d87ff26,
+        type: 3}
+      propertyPath: _colorModeSetting
+      value: 
+      objectReference: {fileID: 1816357251063984494}
     - target: {fileID: 4939719458052364170, guid: 204a8d0e2bac741c8a6cb80e0d87ff26,
         type: 3}
       propertyPath: activeButtonSprite
