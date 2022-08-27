@@ -83,8 +83,11 @@ Hardware requirements for optimal performance:
     <br> ![image](https://user-images.githubusercontent.com/74312830/186113382-86c5aa6c-9d05-4124-8be0-8205c42d0641.png)
   - Select the desired simulation mode 
     <br> ![image](https://user-images.githubusercontent.com/74312830/186113545-1595714b-c156-4a4c-8cc1-11d5dfbb0619.png)
-
-2. Colour Oracle - https://colororacle.org/  [Alternative Non - Persistent] [ For Windows, Mac OS and Linux ]
+<br>
+2. For Mac OS Filter
+  - Follow this guideline https://support.apple.com/en-in/guide/mac-help/mchlba06b669/mac 
+<br>
+3. Colour Oracle - https://colororacle.org/  [Alternative Non - Persistent] [ For Windows, Mac OS and Linux ]
 <br> ⚠Note: Colour Oracle requires Java 6 or higher ; Ideal if you have dual screens
 For Windows - https://www.java.com/en/download/
 
