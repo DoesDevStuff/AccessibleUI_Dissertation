@@ -30,8 +30,8 @@ Download the latest release for playtesting:
 <br>
 
 2. MAC
-[Version-UserTest_MAC.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409751/Version-UserTest_MAC.zip)
-<br>
+[MacBuild_2.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9438703/MacBuild_2.zip)
+
 
 3. LINUX (compressed with 7zip)
 [UserTest Linux_2.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409826/UserTest.Linux_2.zip)
