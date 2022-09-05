@@ -1496,6 +1496,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1530423458}
     m_Modifications:
+    - target: {fileID: 828354389638189542, guid: b14044893f164c72bd17450b8739b668,
+        type: 3}
+      propertyPath: m_Name
+      value: Restart GameText
+      objectReference: {fileID: 0}
     - target: {fileID: 2508153110787653696, guid: b14044893f164c72bd17450b8739b668,
         type: 3}
       propertyPath: m_Name
@@ -1611,6 +1616,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3705147993847738450, guid: b14044893f164c72bd17450b8739b668,
+        type: 3}
+      propertyPath: m_Name
+      value: Restart GameButton
+      objectReference: {fileID: 0}
     - target: {fileID: 5984679075056412143, guid: b14044893f164c72bd17450b8739b668,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1670,6 +1680,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799668080524567250, guid: b14044893f164c72bd17450b8739b668,
+        type: 3}
+      propertyPath: m_text
+      value: Restart Game
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b14044893f164c72bd17450b8739b668, type: 3}
@@ -1980,7 +1995,7 @@ MonoBehaviour:
   settingsButton: {fileID: 1391717851}
   returnToMenuButton: {fileID: 1391717850}
   exitButton: {fileID: 353038636}
-  mainMenuScene: BasementStart
+  mainMenuScene: BasementMain
   isPaused: 0
   startScene:
     m_Handle: 0
