@@ -7,16 +7,6 @@ namespace ScriptableObjects
     [CreateAssetMenu(fileName = "ColorMode.asset", menuName = "ColorMode")]
     public class ColorModeSO : ScriptableObject
     {
-        public enum ColorThemesEnum
-        {
-            Default,
-            Deuteranomaly,
-            Trichromacy,
-            Monochromacy
-        }
-
-        public ColorThemesEnum colorTheme;
-    
         [BoxGroup("Character")]
         public Color playerColor = white;
         [BoxGroup("Character")]
