@@ -26,7 +26,7 @@ For the sake of the user test, player death is disabled to allow players to cont
 ## Files and Links
 Download the latest release for playtesting:
 1. WINDOWS
-[Version-UserTest_WINDOWS.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409744/Version-UserTest_WINDOWS.zip)
+[Final build.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9489220/Final.build.zip)
 <br>
 
 2. MAC
