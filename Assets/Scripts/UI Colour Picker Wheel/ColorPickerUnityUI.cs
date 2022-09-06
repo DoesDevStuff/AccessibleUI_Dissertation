@@ -32,7 +32,8 @@ public class ColorPickerUnityUI : MonoBehaviour {
         myScale = colorPalette.canvas.transform.GetComponent<CanvasScaler>();
 
 
-        SpectrumXY = new Vector2 (colorPalette.GetComponent<RectTransform> ().rect.width* myScale.transform.localScale.x, colorPalette.GetComponent<RectTransform> ().rect.height*myScale.transform.localScale.y);
+        SpectrumXY = new Vector2 (colorPalette.GetComponent<RectTransform> ().rect.width* myScale.transform.localScale.x, 
+                                  colorPalette.GetComponent<RectTransform> ().rect.height*myScale.transform.localScale.y);
 		PictureBounds = colorPalette.GetComponent<Collider2D> ().bounds ;
 		Max =PictureBounds.max;
         Min = PictureBounds.min;
@@ -81,25 +82,30 @@ public class ColorPickerUnityUI : MonoBehaviour {
             myScale = colorPalette.canvas.transform.GetComponent<CanvasScaler>();
 
 
-            SpectrumXY = new Vector2(colorPalette.GetComponent<RectTransform>().rect.width * myScale.transform.localScale.x, colorPalette.GetComponent<RectTransform>().rect.height * myScale.transform.localScale.y);
+            SpectrumXY = new Vector2(colorPalette.GetComponent<RectTransform>().rect.width * myScale.transform.localScale.x, 
+                                     colorPalette.GetComponent<RectTransform>().rect.height * myScale.transform.localScale.y);
             PictureBounds = colorPalette.GetComponent<Collider2D>().bounds;
             Max = PictureBounds.max;
             Min = PictureBounds.min;
 
             position = new Vector2 ((position.x / (colorPalette.GetComponent<RectTransform> ().rect.width)),
 			                        (position.y / (colorPalette.GetComponent<RectTransform> ().rect.height)));
-            Color circularSelectedColor = texture.GetPixelBilinear(position.x / myScale.transform.localScale.x, position.y / myScale.transform.localScale.y);
+            Color circularSelectedColor = texture.GetPixelBilinear(position.x / myScale.transform.localScale.x, 
+                                                                    position.y / myScale.transform.localScale.y);
             circularSelectedColor.a = 1;
             return circularSelectedColor;
 
         } else {
-			position = new Vector2 ((position.x/colorPalette.GetComponent<RectTransform>().rect.width), (position.y / colorPalette.GetComponent<RectTransform>().rect.height) );
+			position = new Vector2 ((position.x/colorPalette.GetComponent<RectTransform>().rect.width), 
+                                    (position.y / colorPalette.GetComponent<RectTransform>().rect.height) );
 		}
 
-		Color SelectedColor = texture.GetPixelBilinear (position.x / myScale.transform.localScale.x, position.y / myScale.transform.localScale.y);
+		Color SelectedColor = texture.GetPixelBilinear (position.x / myScale.transform.localScale.x, 
+                                                        position.y / myScale.transform.localScale.y);
 		SelectedColor.a = 1;
 		return SelectedColor;
 	}
+
 	//move the object only where the picture is
 	private void UpdateThumbPosition(){
 	

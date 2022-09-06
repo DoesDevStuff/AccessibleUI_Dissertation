@@ -998,6 +998,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6707783825626475684, guid: f6314894cd6764639af4647137dfdbd4,
+        type: 3}
+      propertyPath: spriteMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 4e440108ec50645058267a330ca180f9, type: 2}
     - target: {fileID: 6990924325748385081, guid: f6314894cd6764639af4647137dfdbd4,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1068,6 +1073,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.27058825
       objectReference: {fileID: 0}
+    - target: {fileID: 7802605709680673123, guid: f6314894cd6764639af4647137dfdbd4,
+        type: 3}
+      propertyPath: spriteMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: bb98fabd96ef84239863c058d1fd054c, type: 2}
     - target: {fileID: 8036771897919134487, guid: f6314894cd6764639af4647137dfdbd4,
         type: 3}
       propertyPath: m_Color.b
