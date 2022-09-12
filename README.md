@@ -9,6 +9,12 @@ The idea would be to enable players regardless of disability to enjoy a game wit
 In recent years accessibility has become an important topic within the games industry. However, it hasn’t been applied in practice as much. This project attempts to showcase its importance for improving player experiences and why it is important for developers to incorporate it within their game designs along with a working template for them to use / learn from.
 <br>
 
+# Literature
+1. To read the <b>main disseration<b> : [2104598_FinalDissertation_AccessibleUI_UX.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546965/2104598_FinalDissertation_AccessibleUI_UX.pdf)
+2. The final presentation (pitch) : [Final Presentation - 9th Sept.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546975/Final.Presentation.-.9th.Sept.pdf)
+3. The context poster : [2104598_CMP504Coursework_Context_Poster.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546978/2104598_CMP504Coursework_Context_Poster.pdf)
+
+<br>
 
 # The Game
 This is a prototyped version similar to Binding of Isaac which heavily influenced the visual style and player movement.
@@ -28,11 +34,8 @@ Download the latest release for playtesting:
 1. WINDOWS
 [Build_V4.0_Final.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9499304/Build_V4.0_Final.zip)
 
-<br>
-
 2. MAC
 [MacBuild_2.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9438703/MacBuild_2.zip)
-
 
 3. LINUX (compressed with 7zip)
 [UserTest Linux_2.zip](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9409826/UserTest.Linux_2.zip)
@@ -48,7 +51,7 @@ For the user test the following tasks are to be completed by the tester :
 5. To simulate colourblind filters (In windows) follow steps below and note how the colour appears differently to you
 6. Lastly fill out the feedback form attached below.
 
-### Questionnaire link: 
+### Questionnaire link: ⚠ NO LONGER ACCEPTING PARTICIPANTS ⚠
 https://forms.office.com/r/FQyEFAf9CD
 *This is an anonymous questionnaire. Your personal data, including email address, will not be collected.*
 
