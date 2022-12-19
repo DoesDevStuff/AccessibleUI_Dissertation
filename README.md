@@ -49,6 +49,9 @@ https://user-images.githubusercontent.com/74312830/208544405-29cbafa2-a545-4860-
 # Literature
 1. To read the <b>main disseration<b> : [2104598_FinalDissertation_AccessibleUI_UX.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546965/2104598_FinalDissertation_AccessibleUI_UX.pdf)
 2. The final presentation (pitch) : [Final Presentation - 9th Sept.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546975/Final.Presentation.-.9th.Sept.pdf)
+3. The context poster : [2104598_CMP504Coursework_Context_Poster.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546978/2104598_CMP504Coursework_Context_Poster.pdf)
+
+<br>
 
 # The Game
 This is a prototyped version similar to Binding of Isaac which heavily influenced the visual style and player movement.
