@@ -1,20 +1,13 @@
 # Designing an accessible UI / UX framework to enhance player experiences within games
 Dissertation project for my Computer Games Technology Masters
 
-# Summary
-The purpose of this project is to create a working framework for the purpose of demonstrating a design for accessibility within games. This framework will further work as a template for developers wanting to incorporate accessibility designs within their own games, while using industry standard tools and methods. The main focal points for the project will be based on visual elements with the main design aimed towards vision impairment and colour blindness. 
-<br>
-The idea would be to enable players regardless of disability to enjoy a game without hampering their individual player experiences.
-<br>
-In recent years accessibility has become an important topic within the games industry. However, it hasn’t been applied in practice as much. This project attempts to showcase its importance for improving player experiences and why it is important for developers to incorporate it within their game designs along with a working template for them to use / learn from.
-<br>
+## Context Poster (Final)
+
+![Poster](https://user-images.githubusercontent.com/74312830/208526006-2dc99858-7317-4e9c-ae7d-7db7578797c2.png)
 
 # Literature
 1. To read the <b>main disseration<b> : [2104598_FinalDissertation_AccessibleUI_UX.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546965/2104598_FinalDissertation_AccessibleUI_UX.pdf)
 2. The final presentation (pitch) : [Final Presentation - 9th Sept.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546975/Final.Presentation.-.9th.Sept.pdf)
-3. The context poster : [2104598_CMP504Coursework_Context_Poster.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546978/2104598_CMP504Coursework_Context_Poster.pdf)
-
-<br>
 
 # The Game
 This is a prototyped version similar to Binding of Isaac which heavily influenced the visual style and player movement.
@@ -84,9 +77,7 @@ Hardware requirements for optimal performance:
 1. Windows Accessibility filter
   - To run Cntrl + U -> Color Filters
   - Turn on color filter
-    <br> ![image](https://user-images.githubusercontent.com/74312830/186113382-86c5aa6c-9d05-4124-8be0-8205c42d0641.png)
   - Select the desired simulation mode 
-    <br> ![image](https://user-images.githubusercontent.com/74312830/186113545-1595714b-c156-4a4c-8cc1-11d5dfbb0619.png)
 <br>
 2. For Mac OS Filter
   - Follow this guideline https://support.apple.com/en-in/guide/mac-help/mchlba06b669/mac 
