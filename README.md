@@ -1,9 +1,15 @@
 # Designing an accessible UI / UX framework to enhance player experiences within games
 Dissertation project for my Computer Games Technology Masters
 
-## Context Poster (Final)
+## Context [Poster + Slide deck]
 
 ![Poster](https://user-images.githubusercontent.com/74312830/208526006-2dc99858-7317-4e9c-ae7d-7db7578797c2.png)
+
+<details><summary>Link to Slides readme</summary>
+<p>
+https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/blob/main/SLIDES.md
+</p>
+</details>
 
 # Literature
 1. To read the <b>main disseration<b> : [2104598_FinalDissertation_AccessibleUI_UX.pdf](https://github.com/CharlieTheIndieDev/AccessibleUI_Dissertation/files/9546965/2104598_FinalDissertation_AccessibleUI_UX.pdf)
