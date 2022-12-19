@@ -105,14 +105,17 @@ https://user-images.githubusercontent.com/74312830/186148567-7d8cec54-7815-4e5c-
 
 https://user-images.githubusercontent.com/74312830/186149693-c82bb222-a8f9-45d7-9b1e-895db5a061d8.mp4
 
+</p>
+</details>
 
-<b> 3. Simulate the colourblind accessibilty filter (windows) <b>
+<br>
+  
+### Simulate the colourblind accessibilty filter (windows) <b>
 
 Start Screen Default |  Filter on - deuteranopia |  Filter on - protanopia |  Filter on - tritanopia |
 :-------------------:|:-------------------------:|:-----------------------:|:-----------------------:|
 ![image](https://user-images.githubusercontent.com/74312830/186152775-55f5f089-9034-445d-9ede-d2578990f8c2.png) |  ![image](https://user-images.githubusercontent.com/74312830/186152891-c77bfc2d-8e49-4fca-94cf-2c21e07acdef.png) | ![image](https://user-images.githubusercontent.com/74312830/186152968-2b292d15-7b0a-4c0b-9be5-8d9c4be03e6c.png)  |  ![image](https://user-images.githubusercontent.com/74312830/186153099-aa9c70f2-cc8f-4d7b-9694-ef41476f1431.png)
-</p>
-</details>
+
 
 ## Platform and technologies
 
