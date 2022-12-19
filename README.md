@@ -1,6 +1,11 @@
 # Designing an accessible UI / UX framework to enhance player experiences within games
 Dissertation project for my Computer Games Technology Masters
 
+## Video Showcase
+
+https://user-images.githubusercontent.com/74312830/208544405-29cbafa2-a545-4860-9a7d-971de9f449b2.mp4
+
+
 ## Context [Poster + Slide deck]
 
 ![Poster](https://user-images.githubusercontent.com/74312830/208526006-2dc99858-7317-4e9c-ae7d-7db7578797c2.png)
@@ -41,6 +46,9 @@ Download the latest release for playtesting:
 <br>
 
 ## For user test participants:
+<details><summary>Participant Instructions + Walkthrough guide</summary>
+<p>
+  
 For the user test the following tasks are to be completed by the tester :
 *sample test run through is attached in section below*
 1. Load up game and go through in default colour mode
@@ -70,7 +78,9 @@ https://user-images.githubusercontent.com/74312830/186149693-c82bb222-a8f9-45d7-
 Start Screen Default |  Filter on - deuteranopia |  Filter on - protanopia |  Filter on - tritanopia |
 :-------------------:|:-------------------------:|:-----------------------:|:-----------------------:|
 ![image](https://user-images.githubusercontent.com/74312830/186152775-55f5f089-9034-445d-9ede-d2578990f8c2.png) |  ![image](https://user-images.githubusercontent.com/74312830/186152891-c77bfc2d-8e49-4fca-94cf-2c21e07acdef.png) | ![image](https://user-images.githubusercontent.com/74312830/186152968-2b292d15-7b0a-4c0b-9be5-8d9c4be03e6c.png)  |  ![image](https://user-images.githubusercontent.com/74312830/186153099-aa9c70f2-cc8f-4d7b-9694-ef41476f1431.png)
-  
+</p>
+</details>
+
 ## Platform and technologies
 
 Hardware requirements for optimal performance: 
