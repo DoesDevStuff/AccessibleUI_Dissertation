@@ -1,5 +1,5 @@
 # Designing an accessible UI / UX framework to enhance player experiences within games
-<p> Dissertation project for my Computer Games Technology Masters. A detailed overview of the design considerations, implementation, testing and resulting is provided in the [slides section](###-slides).
+<p> Dissertation project for my Computer Games Technology Masters. A detailed overview of the design considerations, implementation, testing and resulting is provided in the [Slides](#slides)
 The testing included comparisons with the colourblindness modes provided by most Operating systems</p>
 
 ## Menu Showcase
