@@ -1,17 +1,31 @@
 # Designing an accessible UI / UX framework to enhance player experiences within games
 Dissertation project for my Computer Games Technology Masters
 
-## Video Showcase
+## Menu Showcase
+<b>  
+1. Drop Down menu selection (Pre-selected colours)
+  
+  ![ColourMenu_dropdown](https://github.com/DoesDevStuff/AccessibleUI_Dissertation/assets/74312830/13508314-0c24-4ce6-86db-cc7119ab9f47) <br><br>
+2. Custom choice selection
+  ![custom](https://github.com/DoesDevStuff/AccessibleUI_Dissertation/assets/74312830/f5bfac0b-fbb1-4605-85a0-65dba1559760) <br><br>
+3. The colourblind options and what they look like
+  ![trit](https://github.com/DoesDevStuff/AccessibleUI_Dissertation/assets/74312830/b64d9dc6-09f5-4a7e-aa48-36dd045132f6)
+  ![mono](https://github.com/DoesDevStuff/AccessibleUI_Dissertation/assets/74312830/0a01df65-98d4-4af7-919d-54cb60b6121f)
+  ![duet](https://github.com/DoesDevStuff/AccessibleUI_Dissertation/assets/74312830/82422e49-79c1-402c-b35a-1713393408b0)
 
-https://user-images.githubusercontent.com/74312830/208544405-29cbafa2-a545-4860-9a7d-971de9f449b2.mp4
-
-<br>
+</b> <br>
 
 ## Context
 
 ### The Poster
 
 ![Poster](https://user-images.githubusercontent.com/74312830/208526006-2dc99858-7317-4e9c-ae7d-7db7578797c2.png)
+
+<br>
+
+## Video Showcase
+
+https://user-images.githubusercontent.com/74312830/208544405-29cbafa2-a545-4860-9a7d-971de9f449b2.mp4
 
 <br>
 
